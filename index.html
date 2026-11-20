@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vespyre — Seu acervo gamer em um lugar</title>
+<meta name="description" content="Registre os jogos que você zerou, dê notas, guarde platinas e GOTYs, e jogue com os amigos. Para Windows ou direto no navegador.">
+<meta name="theme-color" content="#0A0810">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Vespyre — Seu acervo gamer em um lugar">
+<meta property="og:description" content="Registre os jogos que você zerou, dê notas, guarde platinas e GOTYs, e jogue com os amigos.">
+<meta property="og:image" content="https://vespyre.com.br/assets/og-image.png">
+<meta property="og:url" content="https://vespyre.com.br/">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --noite:#0A0810;--sup:#15111E;--sup2:#1A1428;--borda:#241D31;
+    --lilas:#C7B5E2;--lilas-suave:#7E6C9C;--texto:#E4DCEE;--texto-suave:#A396B8;
+    --brasa:#E0532F;--brasa-clara:#FFB070;--vinho:#6E1F45;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:radial-gradient(ellipse 90% 60% at 50% 0%,#1f172b,#0a0810 70%,#08060d);
+    color:var(--texto);font-family:'Inter',system-ui,sans-serif;
+    min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    padding:32px 18px;text-align:center;
+  }
+  .wrap{max-width:560px;width:100%;display:flex;flex-direction:column;align-items:center}
+  .logo{width:112px;height:112px;filter:drop-shadow(0 10px 24px rgba(0,0,0,.4));margin-bottom:6px}
+  h1{font-family:'Unbounded',sans-serif;font-weight:700;letter-spacing:.26em;margin:4px -0.26em 0 0;text-transform:uppercase;font-size:34px;color:#fff}
+  .tagline{color:var(--texto-suave);font-size:15px;margin:10px 0 36px}
+  .cta{display:flex;flex-direction:column;gap:12px;width:100%;max-width:340px}
+  .btn{display:flex;align-items:center;justify-content:center;gap:10px;border-radius:14px;padding:15px 20px;font-size:16px;font-weight:700;text-decoration:none;border:0;cursor:pointer;transition:filter .15s,transform .15s}
+  .btn:active{transform:scale(.98)}
+  .btn.pri{background:linear-gradient(135deg,var(--brasa),var(--brasa-clara));color:#1b0e08;box-shadow:0 10px 26px rgba(224,83,47,.35)}
+  .btn.pri:hover{filter:brightness(1.08)}
+  .btn.sec{background:var(--sup);border:1px solid var(--borda);color:var(--texto)}
+  .btn.sec:hover{border-color:var(--lilas-suave)}
+  .ver{font-size:12.5px;color:var(--texto-suave);margin-top:-2px}
+  .note{font-size:13px;color:var(--texto-suave);margin-top:28px;line-height:1.5;max-width:400px}
+  .note a{color:var(--lilas);text-decoration:none}
+  .note a:hover{text-decoration:underline}
+  footer{margin-top:48px;color:var(--texto-suave);font-size:12px;opacity:.75}
+  @media(max-width:420px){h1{font-size:26px}.logo{width:88px;height:88px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <svg class="logo" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><mask id="vm0" maskUnits="userSpaceOnUse" x="0" y="0" width="240" height="240"><rect width="240" height="240" fill="#fff"/><circle cx="133" cy="107" r="54" fill="#000"/></mask><linearGradient id="vg0" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#FFB070"/><stop offset="0.45" stop-color="#E0532F"/><stop offset="1" stop-color="#6E1F45"/></linearGradient><filter id="vb0" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7"/></filter></defs><circle cx="120" cy="120" r="106" fill="none" stroke="#7E6C9C" stroke-width="6" stroke-dasharray="122 44.5" stroke-linecap="round" transform="rotate(-62 120 120)" opacity="0.6"/><circle cx="120" cy="120" r="94" fill="none" stroke="#7E6C9C" stroke-width="3.5" stroke-dasharray="0.1 12.2" stroke-linecap="round" opacity="0.7"/><circle cx="120" cy="120" r="80" fill="none" stroke="#C7B5E2" stroke-width="10" stroke-dasharray="196 55.3" stroke-linecap="round" transform="rotate(118 120 120)"/><g mask="url(#vm0)"><circle cx="120" cy="120" r="66" fill="url(#vg0)" filter="url(#vb0)" opacity="0.55"/><circle cx="120" cy="120" r="60" fill="url(#vg0)"/></g><circle cx="28.2" cy="173" r="8" fill="#C7B5E2"/><circle cx="219.6" cy="156.3" r="6.5" fill="#C7B5E2"/><circle cx="92.6" cy="17.6" r="5.5" fill="#C7B5E2"/><circle cx="176" cy="60" r="13" fill="#F4E3C1" opacity="0.18"/><circle cx="176" cy="60" r="7" fill="#F4E3C1"/></svg>
+  <h1>Vespyre</h1>
+  <p class="tagline">Seu acervo gamer em um lugar</p>
+
+  <div class="cta" id="cta">
+    <a class="btn pri" id="btnDownload" href="https://github.com/lulzhappy/vespyre/releases/latest" target="_blank" rel="noopener">⬇ Baixar para Windows</a>
+    <span class="ver" id="ver"></span>
+    <a class="btn sec" id="btnWeb" href="app/">🌐 Usar no navegador</a>
+  </div>
+
+  <p class="note" id="note">O aplicativo para Windows tem chamadas de voz, salas e mais recursos. A versão no navegador funciona em qualquer aparelho, inclusive celular.</p>
+
+  <footer>Aplicativo criado por Lulzhappy, desenvolvido via Claude.</footer>
+</div>
+<script>
+// Acha o instalador mais recente nas Releases do GitHub e já deixa o botão apontando direto para ele.
+// Se a busca falhar (sem internet, limite da API…), o botão continua funcionando: leva para a página de Releases.
+fetch('https://api.github.com/repos/lulzhappy/vespyre/releases/latest').then(r => r.ok ? r.json() : null).then(rel => {
+  if (!rel) return;
+  const asset = (rel.assets || []).find(a => /\.exe$/i.test(a.name));
+  if (asset) document.getElementById('btnDownload').href = asset.browser_download_url;
+  if (rel.tag_name) document.getElementById('ver').textContent = 'Versão ' + rel.tag_name.replace(/^v/i, '');
+}).catch(() => {});
+
+// Fora do Windows, o instalador não serve: o navegador vira a opção principal.
+if (!/win/i.test(navigator.platform || navigator.userAgent || '')) {
+  const cta = document.getElementById('cta'), dl = document.getElementById('btnDownload'), web = document.getElementById('btnWeb');
+  dl.classList.remove('pri'); dl.classList.add('sec'); dl.textContent = '⬇ Baixar para Windows';
+  web.classList.remove('sec'); web.classList.add('pri'); web.textContent = '🌐 Abrir o Vespyre';
+  cta.insertBefore(web, dl);
+}
+</script>
+</body>
+</html>
